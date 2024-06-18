@@ -1,0 +1,92 @@
+
+*{
+    color: whitesmoke;
+}
+.container {
+    position: relative;
+    width: 75svw;
+    padding-right: .5rem;
+    border-radius: 3rem;
+    background-color:#36454F;
+    padding: .5rem 1rem;
+    height: 100svh;
+    margin: 1rem 0 0 1rem;
+    height: 94svh;
+    min-height: 94svh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    border-radius: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    display: flex;
+    margin-top: 2rem;
+}
+::-webkit-scrollbar-track{
+    background-color: whitesmoke;
+    margin-block: 1.5rem;
+    border-radius: 3rem;
+ 
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 3rem;
+    background-color: #263036;
+    height: 2rem;
+    margin-top: 2rem;
+    height: 1rem;
+}
+h2 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-top: 2px solid wheat ;
+    margin: 0;
+    margin-top: 2.5rem;
+}
+.about >h2 {
+    border-top: 0;
+}
+section {
+    margin-bottom: 2.5rem;
+}
+section li {
+    margin-left: 2rem;
+    gap: 5rem;
+    font-size: 1.2rem;
+}
+section ul {
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+}
+p{
+    font-size:1.2rem;
+    padding-left: 1.5rem;
+}
+h3 {
+    margin-block: 1rem;
+}
+.project-container {
+    position: relative;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 75svw;
+    padding-left: 1rem;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    height: 19rem;
+    padding: 2rem .5rem 2rem .5rem;
+}
+
+a img {
+    max-width: 20rem;
+    height: 19rem;
+    object-fit: cover;
+    border-radius: 3rem;
+}

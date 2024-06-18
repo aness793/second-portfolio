@@ -1,0 +1,81 @@
+<div class="container">
+    <app-navigation class="navigation"></app-navigation>
+    <section class="about" id="1">
+        <div class="about">
+            <h2>About</h2>
+            <p>I am Aness Rahmani from Algeria I am an Electro-technical Engeering student , i started learning coding
+            during the pandemic exactly mayo, 2020 , i then started with python as my first programming language , 
+            after exploring more i found myself more intereseted in web development , 
+            i started with frontend first beause i found it easier then backend i learned simple html and CSS then
+            made <span class="highlight">my first Portfolio </span>then vanilla JS then 
+            i was interested in Angular so i started learning angular and my made first angular project that was 
+            also <span class="highligt">my first full-stack project</span>
+            and i am currently learning Express js and node js  </p>
+    </div>
+        </section>
+  <section id="2" class="skills">
+    <div class="skills">
+        <h2>skills</h2>
+        <ul>
+            <li><a >Frontend</a></li>
+            <li><a >Angular</a></li>
+            <li><a >express js</a></li>
+        </ul>
+    </div>
+    <div class="soft">
+        <h2>Soft skills</h2>
+        <ul>
+            <li><a >problem solving</a></li>
+            <li><a >flexibility</a></li>
+            <li><a >communication skills</a></li>
+            <li><a >typing speed: 80wpm</a></li>
+            <li><a >teamwork</a></li>
+        </ul>
+    </div>
+  </section>
+    <div id="3" class="Experience">
+        <h2>Experience</h2>
+        <section class="coding">
+            <ul>
+                <h3>coding</h3>
+                <li>javascript :  +4 years expeience</li>
+                <li>Angular: +1 year Experience</li>
+                <li>Frontend development: +4 years experience</li>
+                <li>Python: 2 years exprience</li>
+            </ul>
+            <ul>
+                <h3>languages and Translation</h3>
+                <li>6 months of working as Model trainer for AI </li>
+                <li>Arabic: Native Speaker</li>
+                <li>English: C2 Proficient Level </li>
+                <li>French: C1 Advanced level</li>
+            </ul>
+        </section>
+        <section class="Editing" >
+           
+            <ul> <h3>Photo Editing</h3>
+                <li><p>i worked as a photograph and a photo editor in touristic trips you can see my work in <span class="highlight">gallery </span> section</p></li>
+            </ul>
+        </section>
+
+    </div>
+    <section class="projects" id="4">
+        <h2 >Projects</h2>
+        <div class="project-container">
+            @for (item of projects; track $index) {
+                <div class="projects">
+                <a [href]="item.url">
+                        <img [src]="item.img" alt="">
+                         <h4 style="text-align: center;">{{item.title}} </h4>
+                    </a> 
+                   
+                            </div>
+
+          
+            }
+            
+             
+           
+        </div>
+    </section>
+</div>
