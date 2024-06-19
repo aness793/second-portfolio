@@ -11,7 +11,6 @@
     padding: .5rem 1rem;
     height: 100svh;
     margin: 1rem 0 0 1rem;
-    height: 94svh;
     min-height: 94svh;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -89,4 +88,120 @@ a img {
     height: 19rem;
     object-fit: cover;
     border-radius: 3rem;
+}
+.navigation {
+    position: relative;
+    left: 0;
+    border-top-left-radius: 3rem  ;
+    border-top-right-radius: 3rem  ;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:1200px){
+    .container {
+        position: relative;
+        max-width: 70svw;
+        min-width: 40svw;
+        padding-right: .5rem;
+        border-radius: 3rem;
+        background-color:#36454F;
+        padding: .5rem 1rem;
+        max-height: 86svh;
+        margin: 1rem 0 0 1rem;
+        min-height: 94svh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    ::-webkit-scrollbar{
+        border-radius: 3rem;
+        width: .5rem;
+        background-color: transparent;
+        display: flex;
+        margin-top: 2.2rem;
+    }
+    ::-webkit-scrollbar-track{
+        width: .5rem;
+        background-color: whitesmoke;
+        margin-block: 1.8rem;
+        border-radius: 3rem;
+     
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 3rem;
+        background-color: #263036;
+        height:.5rem;
+        margin-top: 2rem;
+        height: 1rem;
+    }
+    h2 {
+        padding-bottom: .6rem;
+        padding-top: .8rem;
+        border-top: 2px solid wheat ;
+        margin: 0;
+        margin-top: 2.5rem;
+        font-size: 1.2rem;
+    }
+    .about >h2 {
+        border-top: 0;
+    }
+    section {
+        margin-bottom: 1rem;
+    }
+    section li {
+        margin-left: 2rem;
+        gap: 5rem;
+        font-size: .8rem;
+    }
+    section ul {
+        display: flex;
+        gap: .5rem;
+        flex-direction: column;
+    }
+    p{
+        font-size:.8rem;
+        padding-left: 1.2rem;
+        gap:.1rem;
+    }
+    h3 {
+        margin-block: .4rem;
+    }
+    .project-container {
+        position: relative;
+        max-height:fit-content;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: .5rem;
+        width: 60svw;
+        padding-left: .5rem;
+        justify-content:center;
+    }
+    .projects {
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+        max-width: fit-content;
+        height: 19rem;
+        padding: .2rem .5rem .1rem .5rem;
+    }
+    
+    a img {
+        max-width: 10rem;
+        height: 9rem;
+        object-fit: cover;
+        border-radius: 3rem;
+    }
+.navigation {
+    position: relative;
+    left: 0;
+    border-top-left-radius: 3rem  ;
+    border-top-right-radius: 3rem  ;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
 }
